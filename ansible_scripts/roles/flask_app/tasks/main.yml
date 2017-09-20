@@ -1,0 +1,4 @@
+- git: pull flask code from github
+  repo: 'https://github.com/fredriksson/absolute_assessment.git'
+  dest: /opt/absolute
+  archive: /tmp/ansible-examples.zip
