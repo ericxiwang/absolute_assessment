@@ -1,2 +1,2 @@
 [flask_dev]
-192.168.0.110
+host-1 ansible_ssh_user=ssh_key ansible_host=192.168.0.100

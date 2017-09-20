@@ -1,0 +1,6 @@
+- hosts: flask_dev
+  remote_user: root
+  roles:
+    - nginx
+    - flask_app
+    - uwsgi

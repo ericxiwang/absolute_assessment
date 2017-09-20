@@ -13,3 +13,5 @@
 - name: configure app on uwsgi server
   template: src=uwsgi/app_uwsgi.ini dest={{ uwsgi_config_path }}/{{ uwsgi_app_ini }}
   become: yes
+- name: copy conf to nginx
+  copy: src=nginx_uwsgi.conf dest=/etc/nginx/conf.d/
