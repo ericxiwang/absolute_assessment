@@ -1,0 +1,6 @@
+nginx_app_config: "{{ app_name }}_uwsgi_nginx.conf"
+
+uwsgi_venv: "{{ virtualenv_root_path }}/uwsgi"
+uwsgi_config_path: "{{ web_root_path }}/config/uwsgi"
+uwsgi_app_ini: "{{ app_name }}_uwsgi.ini"
+uwsgi_app_service_name: "{{ app_name }}_uwsgi"
