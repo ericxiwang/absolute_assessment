@@ -5,7 +5,7 @@ please check the layout.jpg
 
 summary of assignment
 -=-=-=-=-=-=-=-=-=-
-Delopying steps:
+Deploying steps:
 
 1.create vm on hosting server
 You can use Vagrantfile(/vagrant_script) to create a customized server and flask, ssh service and login key are already
